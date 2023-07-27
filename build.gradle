@@ -1,0 +1,18 @@
+plugins {
+    id 'application'
+}
+
+java {
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.ibm.icu:icu4j:72.1'
+}
+
+application {
+    mainClass = 'no.priv.gulbrandsen.idna2008compatibility.Main'
+}
